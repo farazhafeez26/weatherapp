@@ -18,6 +18,8 @@ function fetchWeather(event) {
     .then(data => {
         document.getElementById('location').innerText=data.name;
         document.getElementById('date').innerHTML=buildDate();
+        document.getElementById('temp').innerHTML=data.main.temp;
+        document.getElementById('weather').innerHTML= data.weather[0].main;  // how does this work?
     });
    
    
