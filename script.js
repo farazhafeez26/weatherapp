@@ -56,3 +56,6 @@ function buildDate() {
     let year = d.getFullYear();
     return `${day} ${date} ${month} ${year}`;
   }
+
+  //copied code from the example
+  
